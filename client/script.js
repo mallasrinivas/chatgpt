@@ -77,7 +77,7 @@ const handleSubmit = async (ev) =>{
 
   loader(messageDiv);
   //fetch data from serve
-  const response = await fetch('http://localhost:4000', {
+  const response = await fetch('https://clonechatgpt.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
